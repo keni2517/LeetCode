@@ -1,13 +1,12 @@
 //Given an integer n, return the number of trailing zeroes in n!.
 
 {
-    let n = 5;
+    let n = prompt("enter n:");
     let fact = 1;
-    let i = 1;
+    let i;
     console.log("Factorial number");
-    while (i <= n) {
+    for (i = 1; i <= n; i++) {
         fact = fact * i;
-        i++;
     }
     console.log(fact);
 }
